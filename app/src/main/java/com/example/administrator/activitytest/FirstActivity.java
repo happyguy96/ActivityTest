@@ -27,6 +27,7 @@ public class FirstActivity extends BaseActivity{
                 break;
             case R.id.remove_item:
                 Toast.makeText(this, "You clicked Remove", Toast.LENGTH_SHORT).show();
+                Log.d("bbb", "hi ");
                 break;
             default:
         }
