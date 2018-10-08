@@ -23,6 +23,7 @@ public class FirstActivity extends BaseActivity{
         switch (item.getItemId()) {
             case R.id.add_item:
                 Toast.makeText(this, "You clicked Add", Toast.LENGTH_SHORT).show();
+                Log.d("aaa", "hello");
                 break;
             case R.id.remove_item:
                 Toast.makeText(this, "You clicked Remove", Toast.LENGTH_SHORT).show();
